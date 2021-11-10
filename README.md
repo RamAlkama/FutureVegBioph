@@ -14,7 +14,7 @@ From Equation 1 it follows that the lai  can be quantified as the difference bet
  dT(res)=sum(dT/di)/sum(1/di)     (2)
 From equations 1 and 2, we estimate  for all grid cells where we observe LAI change larger than 0.1 m2/m2. This calculation of these differences is repeated between two years for each individual month, for all the 66 pairs of years available for the period 2003-2014. 
 
-To do this we use "job.py" python program that import a function "nearby" which is based on a fortran program "nearby.f90" that should be compiled using f2py. The result is computaion of dT/dLAI.
+To do this we use "job.py" python program that import a function "nearby" which is based on a fortran program "nearby.f90" that should be compiled using f2py. 
 
 We then used Obs.py python program to get the average dT/dLai from the the all 66 pairs of years available. The result of this program is stored in "Obs.nc" that is shown in Fig1c.
 
