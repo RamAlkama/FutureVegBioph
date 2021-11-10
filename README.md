@@ -20,7 +20,7 @@ We then used Obs.py python program to get the average dT/dLai from the the all 6
 
 Once the monthly local sensitivity is estimated, we split the data in two regions (with and without snow using 1% monthly snow cover as threshold). The snow-covered areas are known to be dominated by the radiative effect (i.e. due to the contrast in albedo between vegetation and snow), while the snow-free areas are dominated by the partitioning of the available energy in turbulent fluxes (i.e. evaporation versus sensible heat). The sensitivity dT/dLAI in the first areas are then expressed as a function of monthly snow cover (SC in %) estimates from MODIS (MYD10CM.006) and solar radiation (SWdown in W/m2) from the ERA5 reanalysis using the bivariate quadratic least square regression and the resulted function is as follow.  
 
-This is done using "evap_solarRadiatio.py" and "snow_solarRadiation.py" which allow us to have dt/dLAI as fuction of evaporatio-SolarRadiatio and SnowCover-SolarRadiation respectevely.
+This is done using "evap_solarRadiation.py" and "snow_solarRadiation.py" which allow us to have dt/dLAI as fuction of evaporatio-SolarRadiatio and SnowCover-SolarRadiation respectevely.
  
 # 2  Use this sensitivity to estimate the impact of future greening on temperature (this is based on CMIP6 experiments)
 We use the sensitivity with simulated LAI, evaporation, solar radiation and snow cover for each of the four SSPs (SSP585,SSP370, SSP245 and SSP126) over 2015-2100. 
