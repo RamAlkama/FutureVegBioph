@@ -28,4 +28,4 @@ Program and figures are besed on python notebook programm "main_figures.ipynb".
 
 # 3  Biochemical effect of vegetation greening on air temperature
 A previous study (Leduc et al. 2016 Nat Clim Change) shows a strong linear relationship between atmospheric carbon concentration and regional surface air temperature. Here, we combined the strong linearity of the regional climate response over most land regions presented from Leduc et al.59 and the simulated variation in vegetation carbon stock by CMIP6 climate models, to drive the global-scale biochemical climate impacts. Basically, Leduc et al. 2016 find an increase of land temperature of 2.2±0.5o per 1 Terra ton of carbon (Tt C) in the atmosphere. In our case we used the total increase of carbon in plants (ΔB in Tt C) between 2015 and 2100 coming from the CMIP6 archive to estimate the biochemical effect.
-Program and figures are besed on python notebook programm "main_figures.ipynb" 
+Program and figures are besed on python notebook programm "main_figures.ipynb".
