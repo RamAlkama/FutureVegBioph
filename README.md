@@ -16,7 +16,7 @@ From equations 1 and 2, we estimate  for all grid cells where we observe LAI cha
 
 To do this we use "job.py" python program that import a function "nearby" which is based on a fortran program "nearby.f90" that should be compiled using f2py. 
 
-We then used Obs_2d.py python program to get the average dT/dLai from the the all 66 pairs of years available. The result of this program is stored in "Obs.nc" that is shown in Fig1c.
+We then used Obs_2d.py python program to get the average dT/dLai from the the all 66 pairs of years available. The result of this program is stored in "sensitivity_yearly.nc" that is shown in Fig1c.
 
 Once the monthly local sensitivity is estimated, we split the data in two regions (with and without snow using 1% monthly snow cover as threshold). The snow-covered areas are known to be dominated by the radiative effect (i.e. due to the contrast in albedo between vegetation and snow), while the snow-free areas are dominated by the partitioning of the available energy in turbulent fluxes (i.e. evaporation versus sensible heat). The sensitivity dT/dLAI in the first areas are then expressed as a function of monthly snow cover (SC in %) estimates from MODIS (MYD10CM.006) and solar radiation (SWdown in W/m2) from the ERA5 reanalysis using the bivariate quadratic least square regression and the resulted function is as follow.  
 
